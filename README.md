@@ -33,7 +33,7 @@ Specific rules were implemented to provide automated classification:
 * **Contribution Mapping**: If a user authors a commit on a branch belonging to a repository, they are inferred to be a contributor to that repository (`contributesTo`).
 * **Branch Typing**: Branches are classified as `MainBranch` or `SecondaryBranch` based on their default status.
 
-## 🖥️ Project Structure
+## Project Structure
 The system is organized into three processing stages to ensure data integrity:
 1.  **Base Ontology (`git_ontology_base.owl`)**: The unpopulated schema and rules.
 2.  **Populated Ontology (`git_ontology_populated.owl`)**: Individuals generated from extracted GitHub JSON data.
